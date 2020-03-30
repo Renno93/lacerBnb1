@@ -22,25 +22,25 @@
 <body>
   
   <!-- Fixed Navbar + colore e parole-->
-  <div class="navbar">
-    <nav>
-      <div class="nav-wrapper white">
-        <a href="#" class="brand-logo">Lacerbnb</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">LacerBnb</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#servizio">Servizio</a></li>
           <li><a href="#registrazione">Registrati</a></li>
-          <li><a href="#Ospita">Ospita</a></li>
+          <li><a href="#ospita">Ospita</a></li>
         </ul>
-        <ul class="sidenav" id="mobile-demo">
-          <li><a href="#servizio">Servizio</a></li>
-          <li><a href="#registrazione">Registrati</a></li>
-          <li><a href="#Ospita">Ospita</a></li>
-   
-        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
-    </nav>
+    </nav> 
   </div>
+
+  <ul id="nav-mobile" class="sidenav">
+    <li><a href="#servizio">Servizio</a></li>
+    <li><a href="#registrazione">Registrati</a></li>
+    <li><a href="#ospita">Ospita</a></li>
+  </ul> 
 
 <!-- intro Landing page-->
   <div id="index-banner" class="parallax-container">
